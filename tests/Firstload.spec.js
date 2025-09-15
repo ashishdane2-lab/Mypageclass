@@ -6,7 +6,7 @@ const mytitle =page.title();
 console.log(mytitle);
 await expect(page).toHaveTitle('STORE');
 await page.locator('#login2').click();
-await page.locator('#loginusername').fill('Test');
+await page.locator('#loginusername').fill('Tested');
 
 
 }

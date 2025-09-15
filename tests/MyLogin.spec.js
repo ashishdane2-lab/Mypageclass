@@ -9,7 +9,7 @@ test('My second test',async ({page})=>
 
         
 
-await loginpage.validlogin('rahulshettyacademy','leaarning');
+await loginpage.validlogin('rahulshettyacademy','learning');
 
 }
 
